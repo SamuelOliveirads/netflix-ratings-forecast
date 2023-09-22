@@ -66,3 +66,13 @@ exploratory_data_analysis:
   type: pandas.CSVDataSet
   filepath: data/04_feature/exploratory_data_analysis.csv
   layer: feature
+
+train_data_preparation:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/train_data_preparation.csv
+  layer: model_input
+
+validation_data_preparation:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/validation_data_preparation.csv
+  layer: model_input
