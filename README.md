@@ -6,6 +6,20 @@ This is your new Kedro project, which was generated using `Kedro 0.18.12`.
 
 Take a look at the [Kedro documentation](https://kedro.readthedocs.io) to get started.
 
+### Business problem
+
+Netflix is looking to develop a predictive model to forecast movie ratings, thereby determining whether it's worthwhile to add a particular movie to their catalog.
+The challenge is to construct a machine learning model that predicts the rating a movie would receive if added to the catalog.
+
+Here is the [solution planning](docs/planning.md)
+
+## Solution strategy
+To solve the business problem I use the CRISP-DM methodology adapted for data science processes, the process steps for the solution will be as follows:
+
+![crisp-method](/docs/crisp_ds.png)
+
+This process guarantees the construction of quick projects that allow potential problems to be visualized at every stage, as well as implementing continuous improvement with each new cycle.
+
 ## Rules and guidelines
 
 In order to get the best out of the template:
