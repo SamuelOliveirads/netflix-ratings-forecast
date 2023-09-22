@@ -42,6 +42,12 @@
 # This is a data set used by the "Hello World" example pipeline provided with the project
 # template. Please feel free to remove it once you remove the example pipeline.
 
-example_iris_data:
+netflix_data:
+  type: pandas.ExcelDataSet
+  filepath: data/01_raw/dataset_netflix.xlsx
+  layer: raw
+
+data_description:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/iris.csv
+  filepath: data/02_intermediate/dataset_description.csv
+  layer: intermediate

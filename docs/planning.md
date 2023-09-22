@@ -3,8 +3,11 @@
 ## Criteria
 
 - **Why is predicting ratings important?**
-    Predicting ratings can be crucial in various scenarios. Typically, there are two types of ratings: consumer ratings and critic ratings. To provide more depth to our problem, we can base it on the following premise:
-    > Netflix aims to enhance its quality and relationship with its customers. For this, a predictive rating model is crucial. Once a rating is predicted, Netflix desires to take actionable insights. Let's assume Netflix has a series of projects in their early stages (script drafting) and wants to evaluate them. The ones with the highest predicted ratings would then be prioritized for further development like filming, marketing, etc. The goal is to maximize the number of movies on the platform that are well-received by the audience.
+    Predicting ratings is crucial for decision-making at various stages of content production and release. While there are typically two types of ratings: consumer ratings and critic ratings, the following premise will enhance our understanding of this project's importance:
+    > Netflix aims to improve its content quality and strengthen its relationship with viewers. A predictive rating model becomes an instrumental tool in this journey. Netflix has multiple projects at various stages:
+    1. **Script Drafting**: Projects in this phase will be evaluated based on predicted ratings. Those with the highest predicted scores will be prioritized for further development, including filming and marketing.
+    2. **Development**: Projects currently under development will also undergo rating predictions. Depending on the scores, decisions can be made, for instance, to accelerate or potentially pause certain projects to ensure optimal resource allocation.
+    3. **Released Projects**: For projects that have already been launched, they won't be subjected to this prediction process as they've presumably been rated already. However, their actual ratings can serve as valuable data for refining the prediction model.
 
 - **Defining a threshold for ratings:**
     Typically, ratings are in the range of 0 to 100. We need to define a threshold for what rating deems a movie worthy of making it to the catalog. While one could use external review sites, this process involves data collection, cleaning, and analysis. Thus, for simplicity, let's set a premise:
