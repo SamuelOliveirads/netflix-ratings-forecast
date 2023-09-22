@@ -76,3 +76,13 @@ validation_data_preparation:
   type: pandas.CSVDataSet
   filepath: data/05_model_input/validation_data_preparation.csv
   layer: model_input
+
+train_feature_selection:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/train_feature_selection.csv
+  layer: model_input
+
+validation_feature_selection:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/validation_feature_selection.csv
+  layer: model_input
