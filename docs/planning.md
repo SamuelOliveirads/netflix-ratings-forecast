@@ -17,8 +17,9 @@
     The focus here is solely on movies. Thus, we'll exclude other media types like TV shows.
 
 ## Output:
-- Evaluation of model or models' performance, preferably using visual aids. There should be a rationale behind the metrics used and a comprehensive explanation of the results.
-- An analysis of how your model adds value to Netflix's business.
+- A spreadsheet with the ranking of the films in their different stages
+- Scenario simulations with resource allocation
+- Evaluation of the model's performance and errors
 
 ## Input:
 - Netflix database containing its catalog with the following attributes:
@@ -41,11 +42,14 @@
     - Split the dataset into training and testing subsets.
     - Implement encodings for categorical variables and scale numerical attributes.
 
-6. **Machine Learning:**
+6. **Feature Selection:**
+    - Selection of the most relevant features for the model.
+
+7. **Machine Learning:**
     - Test various models to determine which has the best predictive power for this specific task.
 
-7. **Fine-Tuning:**
+8. **Fine-Tuning:**
     - Refine the chosen model's hyperparameters to enhance its predictive capabilities.
 
-8. **Business Performance Evaluation:**
+9. **Business Performance Evaluation:**
     - Evaluate the model from a business perspective, considering its impact on Netflix's objectives and goals.
