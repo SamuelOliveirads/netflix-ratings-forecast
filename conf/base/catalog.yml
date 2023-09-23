@@ -51,31 +51,43 @@ data_description:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/dataset_description.csv
   layer: intermediate
+  load_args:
+    parse_dates: ['date_added']
 
 variable_filtering:
   type: pandas.CSVDataSet
   filepath: data/03_primary/variable_filtering.csv
   layer: primary
+  load_args:
+    parse_dates: ['date_added']
 
 feature_engineering:
   type: pandas.CSVDataSet
   filepath: data/04_feature/feature_engineering.csv
   layer: feature
+  load_args:
+    parse_dates: ['date_added']
 
 exploratory_data_analysis:
   type: pandas.CSVDataSet
   filepath: data/04_feature/exploratory_data_analysis.csv
   layer: feature
+  load_args:
+    parse_dates: ['date_added']
 
 train_data_preparation:
   type: pandas.CSVDataSet
   filepath: data/05_model_input/train_data_preparation.csv
   layer: model_input
+  load_args:
+    parse_dates: ['date_added']
 
 validation_data_preparation:
   type: pandas.CSVDataSet
   filepath: data/05_model_input/validation_data_preparation.csv
   layer: model_input
+  load_args:
+    parse_dates: ['date_added']
 
 yeojohnson_transformation:
   type: pickle.PickleDataSet
@@ -86,8 +98,12 @@ train_feature_selection:
   type: pandas.CSVDataSet
   filepath: data/05_model_input/train_feature_selection.csv
   layer: model_input
+  load_args:
+    parse_dates: ['date_added']
 
 validation_feature_selection:
   type: pandas.CSVDataSet
   filepath: data/05_model_input/validation_feature_selection.csv
   layer: model_input
+  load_args:
+    parse_dates: ['date_added']
